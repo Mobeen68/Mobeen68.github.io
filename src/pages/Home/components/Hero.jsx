@@ -7,7 +7,7 @@ const Hero = () => {
       <h5 className="text-center text-4xl font-bold tracking-tight text-gray-900 dark:text-white">
         Founders Message
       </h5>
-      <p className="font-bold text-gray-700 dark:text-gray-400">
+      <p className="font-bold text-lg text-gray-700 dark:text-gray-400">
         I am a PSYCHOLOGIST, yes
         <span className="text-red-600"> I get sad, angry and afraid</span>
         <br /> I can listen to you for hours but
