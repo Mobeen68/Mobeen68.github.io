@@ -5,6 +5,7 @@ import Footer from "./components/Ending";
 import Navbar from "../../components/ui/Navbar";
 import Hero from "./components/Hero";
 import Info from "./components/Info";
+import Team from "./components/Team";
 
 const Home = () => {
   return (
@@ -12,10 +13,9 @@ const Home = () => {
       <Navbar />
       <Slider />
       <Hero />
-      {/* <div className="mx-16"> */}
       <Info />
+      <Team />
       <Footer />
-      {/* </div> */}
     </div>
   );
 };

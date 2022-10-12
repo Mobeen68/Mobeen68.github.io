@@ -16,4 +16,16 @@ export const config = {
     { link: "./img/slides/29273.jpg" },
     { link: "./img/slides/606649.jpg" },
   ],
+
+  Team: [
+    { name: "Meeee", category: "psychatrist", description: "newww" },
+    { name: "New", category: "vela", description: "newww" },
+    { name: "New", category: "vela", description: "newww" },
+    {
+      name: "New",
+      category: "vela",
+      description:
+        "newww asmkamskajwiqjwkaams amsnjaskansjasjk absjahsnansjajksnan anjsanjsn",
+    },
+  ],
 };
