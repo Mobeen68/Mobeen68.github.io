@@ -1,5 +1,6 @@
 import { Card } from "flowbite-react";
 import React from "react";
+import { config } from "../../../config";
 
 const Hero = () => {
   return (
@@ -21,10 +22,7 @@ const Hero = () => {
           </a>
         </div>
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-          <img
-            src="/img/miss.png"
-            alt="mockup"
-          />
+          <img src="./img/miss.png" alt="mockup" />
         </div>
       </div>
     </section>
