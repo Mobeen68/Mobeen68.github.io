@@ -3,7 +3,7 @@ import React from "react";
 
 const Info = () => {
   return (
-    <div className="my-2 text-center">
+    <div className="text-center">
       <Card>
         <div className="flex flex-col items-center">
           <img

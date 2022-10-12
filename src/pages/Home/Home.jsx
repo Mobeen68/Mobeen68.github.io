@@ -1,18 +1,21 @@
 import React from "react";
 import Slider from "./components/Slider";
 import Footer from "./components/Ending";
-import Header from "./components/Header";
+// import Header from "./components/Header";
+import Navbar from "../../components/ui/Navbar";
 import Hero from "./components/Hero";
 import Info from "./components/Info";
 
 const Home = () => {
   return (
-    <div className="md:p-4">
-      <Header />
+    <div className=" bg-slate-200">
+      <Navbar />
       <Slider />
       <Hero />
+      {/* <div className="mx-16"> */}
       <Info />
       <Footer />
+      {/* </div> */}
     </div>
   );
 };
