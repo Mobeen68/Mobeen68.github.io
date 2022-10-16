@@ -9,14 +9,16 @@ import Team from "./components/Team";
 
 const Home = () => {
   return (
-    <div className=" bg-slate-200">
-      <Navbar />
-      <Slider />
-      <Hero />
-      <Info />
-      <Team />
+    <>
+      <div className="lg:mx-16 bg-slate-200">
+        <Navbar />
+        <Slider />
+        <Hero />
+        <Info />
+        <Team />
+      </div>
       <Footer />
-    </div>
+    </>
   );
 };
 

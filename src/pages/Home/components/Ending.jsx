@@ -10,7 +10,7 @@ import {
 
 const Ending = () => {
   return (
-    <Footer container={true}>
+    <Footer container={true} >
       <div className="w-full">
         <div className="w-full flex flex-col justify-between items-center md:flex md:flex-row md:items-center md:justify-between">
           <Footer.Brand
