@@ -3,17 +3,10 @@ import React from "react";
 
 const Header = () => {
   return (
-<<<<<<< HEAD
     <Navbar fluid={true} rounded={true}>
       <Navbar.Brand href="#">
         <img src="/img/logo.jpeg" className="mr-3 h-6 sm:h-9" alt="Logo" />
         <div className="flex flex-col">
-=======
-    <div className="">
-      <Navbar fluid={true} rounded={true}>
-        <Navbar.Brand href="#">
-          <img src="/img/logo.jpeg" className="mr-3 h-7 sm:h-9" alt="Logo" height={"200xp"} />
->>>>>>> 2ac17ce (hero update)
           <span className="self-center whitespace-nowrap text-sm lg:text-xl font-semibold dark:text-white">
             Positively Happy
           </span>
